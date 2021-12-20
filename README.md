@@ -1,1 +1,1 @@
-https://denisdrobysheusky.github.io/rsschool-cv/cv
+https://github.com/denisdrobysheusky/rsschool-cv.git
