@@ -3,7 +3,9 @@
 ## Contact information:
 
 Phone: +375291412232
+
 E-mail: denisdrobysheusky@gmail.com
+
 ***********************************
 
 ## About myself
