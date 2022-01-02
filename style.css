@@ -1,11 +1,46 @@
-.head{
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-cide {
+    position: absolute;
+    right: 0px;
+    margin: 380,0,0,0;
+}   
+
+.right-cide {
+    position: absolute;
+    left: 0px;
+    background-color: #283855;
+
+}
+
+
+.name {
+    border: 1px solid saddlebrown;
     
 }
 
-.name{
-    position: absolute;
-    top: 220px;
-    left: 450px;
-    text-align: center;
+.profil {
+    border: 1px solid saddlebrown;
 }
 
+.education {
+    border: 1px solid saddlebrown;
+    
+}
+
+.contact {
+    border: 1px solid saddlebrown;
+    
+}
+
+.skils {
+    border: 1px solid saddlebrown;
+    
+}
+
+.Courses {
+    border: 1px solid saddlebrown;
+}
