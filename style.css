@@ -6,7 +6,7 @@
 .left-cide {
     position: absolute;
     right: 0px;
-    margin: 380,0,0,0;
+    
 }   
 
 .right-cide {
@@ -18,29 +18,92 @@
 
 
 .name {
-    border: 1px solid saddlebrown;
     
+}
+
+.title-name {
+    
+}
+
+.title-contact {
+     margin: 20 0 0 20;
+     background-color: #435d8d;
+     color: white;
+}
+
+.title-contact::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
+}
+
+.phon {
+    list-style-type: none;
+    padding: 25 0 12 0;
+    color: rgb(255, 255, 255);
+    font-size: 20;
+}
+
+
+.email {
+    list-style-type: none;
+    padding: 12 0 12 0;
+    color: rgb(255, 255, 255);
+    font-size: 20;
+}
+
+.adress {
+    list-style-type: none;
+    position: absolute;
+    padding: 12 0 12 0;
+    color: rgb(255, 255, 255);
+    font-size: 20;  
 }
 
 .profil {
-    border: 1px solid saddlebrown;
-}
-
-.education {
-    border: 1px solid saddlebrown;
     
 }
 
+.education {
+    margin: 110 0 0 20;
+    background-color: #435d8d;
+    color: white;
+}
+
+.education::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
+}
+
+.title-education {
+    margin: 20 0 0 20;
+    background-color: #435d8d;
+    color: white;
+}
+
+.p-education {
+    margin: 20;
+    color: white;
+    font-size: 20;
+}
+
 .contact {
-    border: 1px solid saddlebrown;
+    
     
 }
 
 .skils {
-    border: 1px solid saddlebrown;
+    
     
 }
 
 .Courses {
-    border: 1px solid saddlebrown;
+    
 }
