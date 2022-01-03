@@ -16,14 +16,10 @@
 
 }
 
+.contact {
 
-.name {
-    
 }
 
-.title-name {
-    
-}
 
 .title-contact {
      margin: 20 0 0 20;
@@ -63,9 +59,7 @@
     font-size: 20;  
 }
 
-.profil {
-    
-}
+
 
 .education {
     margin: 110 0 0 20;
@@ -94,16 +88,79 @@
     font-size: 20;
 }
 
-.contact {
-    
-    
+.name {
+    margin: 250 400 250 242;
+}
+
+.title-name {
+    font-size: 50;
+    font-family: Work sans-serif;
+    margin right: 0;
+    margin-left: 400;
+    margin-right: 0;
+    position: relative;
+}
+
+.p-title-name {
+    font-size: 20;
+    position: relative;
+    margin-left: 400;
+}
+
+
+.profil {
+    margin: 20 0 20 400;
+    background-color: #435d8d;
+    position: relative;
+} 
+
+.title-prjfil {
+
+}
+
+.title-profil::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .skils {
-    
-    
+    margin: 20 0 20 400;
+    background-color: #435d8d;
+    position: relative;
+}
+
+.title-skils {
+
+}
+
+.title-skils::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .Courses {
-    
+    margin: 20 0 20 400;
+    background-color: #435d8d;
+    position: relative;
+}
+
+.title-courses {
+
+}
+ 
+.title-courses::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
