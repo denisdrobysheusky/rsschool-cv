@@ -19,14 +19,14 @@
 }
 
 .contact {
-    margin: 20 0 225 20;
+    margin: 20 0 225 0;
     background-color: #435d8d;
     color: white;
     height: 27px;
 }
 
 .title-contact {
-     margin: 0 0 0 20;
+     margin: 0 0 0 50;
      background-color: #435d8d;
      color: white;
 }
@@ -42,15 +42,14 @@
 
 .phon {
     list-style-type: none;
-    padding: 25 0 12 0;
+    padding: 25 0 12 10;
     color: rgb(255, 255, 255);
     font-size: 20;
 }
 
-
 .email {
     list-style-type: none;
-    padding: 12 0 12 0;
+    padding: 12 0 12 10;
     color: rgb(255, 255, 255);
     font-size: 20;
 }
@@ -58,15 +57,13 @@
 .adress {
     list-style-type: none;
     position: absolute;
-    padding: 12 0 12 0;
+    padding: 12 0 12 10;
     color: rgb(255, 255, 255);
     font-size: 20;  
 }
 
-
-
 .education {
-    margin: 110 0 0 20;
+    margin: 110 0 0 0;
     background-color: #435d8d;
     color: white;
 }
@@ -81,13 +78,13 @@
 }
 
 .title-education {
-    margin: 20 0 0 20;
+    margin: 0 0 0 50;
     background-color: #435d8d;
     color: white;
 }
 
 .p-education {
-    margin: 20;
+    margin: 20 0 20 50;
     color: white;
     font-size: 20;
 }
@@ -99,7 +96,7 @@
 .title-name {
     font-size: 50;
     font-family: Work sans;
-    margin right: 0;
+    margin-right: 0;
     margin-left: 400;
     margin-right: 0;
     position: relative;
@@ -119,7 +116,11 @@
 } 
 
 .title-profil {
+    left: 450;
+    right: 50;
+    font-size: 20;
     margin-left: 50;
+    height: 27;
 }
 
 .title-profil::before {
@@ -141,10 +142,12 @@
     margin: 20 0 20 400;
     background-color: #a3bceb;
     position: relative;
+    margin-top: 150;
 }
 
 .title-skils {
-    margin-left: 50;
+    margin: 0px 0px 0px 50px;
+    height: 27px
 }
 
 .title-skils::before {
@@ -157,9 +160,11 @@
 }
 
 .p-skils {
-    position: absolute;
     left: 450;
     font-size: 20;
+    background-color: white;
+    margin: 0;
+    padding: 50px 40px 50 70;
 }
 
 .Courses {
@@ -169,7 +174,10 @@
 }
 
 .title-courses {
-    margin-left: 50;
+    left: 450;
+    right: 50;
+    margin: 0 50 0 50;
+    height: 27;
 }                              
  
 .title-courses::before {
@@ -182,7 +190,9 @@
 }
 
 .p-courses {
-    position: absolute;
     left: 450;
     font-size: 20;
+    background-color: white;
+    margin: 0;
+    padding: 50 40 50 50;
 }
