@@ -205,3 +205,34 @@
     margin: 0;
     padding: 50 40 50 50;
 }
+
+.lenguages {
+    margin: 20 0 20 400;
+    background-color: #a3bceb;
+    position: relative;
+}
+
+.title-lenguages::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
+} 
+
+.title-lenguages {
+    left: 450;
+    right: 50;
+    margin: 0 50 0 50;
+    height: 27;
+    font: bold Poppins, sans-serif;
+}
+
+.p-lenguages {
+    left: 450;
+    font: 20px Poppins, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 50px 40px 50 70;
+}
