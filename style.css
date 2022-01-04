@@ -1,8 +1,10 @@
 .body {
     display: flex;
     flex-direction: column;
-    margin-left:20;
-    margin-right: 20;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .left-cide {
@@ -15,6 +17,7 @@
     position: absolute;
     left: auto;
     background-color: #283855;
+    height: 1000;
 
 }
 
@@ -26,6 +29,7 @@
 }
 
 .title-contact {
+    font: bold Poppins, sans-serif;
      margin: 0 0 0 50;
      background-color: #435d8d;
      color: white;
@@ -81,12 +85,14 @@
     margin: 0 0 0 50;
     background-color: #435d8d;
     color: white;
+    font: bold Poppins, sans-serif;
 }
 
 .p-education {
+    position: absolute;
     margin: 20 0 20 50;
     color: white;
-    font-size: 20;
+    font-size: 20px;
 }
 
 .name {
@@ -95,7 +101,7 @@
 
 .title-name {
     font-size: 50;
-    font-family: Work sans;
+    font: bold 50px Poppins, sans-serif;
     margin-right: 0;
     margin-left: 400;
     margin-right: 0;
@@ -103,7 +109,7 @@
 }
 
 .p-title-name {
-    font-size: 20;
+    font: 25px Poppins, sans-serif;
     position: relative;
     margin-left: 400;
 }
@@ -118,9 +124,9 @@
 .title-profil {
     left: 450;
     right: 50;
-    font-size: 20;
     margin-left: 50;
     height: 27;
+    font: bold Poppins, sans-serif;
 }
 
 .title-profil::before {
@@ -135,7 +141,8 @@
 .p-profil {
     position: absolute;
     left: 450;
-    font-size: 20;
+    font: 20px Poppins, sans-serif;
+    margin-right: 70px;
 }
 
 .skils {
@@ -146,6 +153,7 @@
 }
 
 .title-skils {
+    font: bold Poppins, sans-serif;
     margin: 0px 0px 0px 50px;
     height: 27px
 }
@@ -161,7 +169,7 @@
 
 .p-skils {
     left: 450;
-    font-size: 20;
+    font: 20px Poppins, sans-serif;
     background-color: white;
     margin: 0;
     padding: 50px 40px 50 70;
@@ -178,6 +186,7 @@
     right: 50;
     margin: 0 50 0 50;
     height: 27;
+    font: bold Poppins, sans-serif;
 }                              
  
 .title-courses::before {
@@ -191,7 +200,7 @@
 
 .p-courses {
     left: 450;
-    font-size: 20;
+    font: 20px Poppins, sans-serif;
     background-color: white;
     margin: 0;
     padding: 50 40 50 50;
