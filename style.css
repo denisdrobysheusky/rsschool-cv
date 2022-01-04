@@ -1,28 +1,32 @@
 .body {
     display: flex;
     flex-direction: column;
+    margin-left:20;
+    margin-right: 20;
 }
 
 .left-cide {
     position: absolute;
-    right: 0px;
+    right: auto;
     
 }   
 
 .right-cide {
     position: absolute;
-    left: 0px;
+    left: auto;
     background-color: #283855;
 
 }
 
 .contact {
-
+    margin: 20 0 225 20;
+    background-color: #435d8d;
+    color: white;
+    height: 27px;
 }
 
-
 .title-contact {
-     margin: 20 0 0 20;
+     margin: 0 0 0 20;
      background-color: #435d8d;
      color: white;
 }
@@ -89,12 +93,12 @@
 }
 
 .name {
-    margin: 250 400 250 242;
+    margin: 150 400 150 242;
 }
 
 .title-name {
     font-size: 50;
-    font-family: Work sans-serif;
+    font-family: Work sans;
     margin right: 0;
     margin-left: 400;
     margin-right: 0;
@@ -110,12 +114,12 @@
 
 .profil {
     margin: 20 0 20 400;
-    background-color: #435d8d;
+    background-color: #a3bceb;
     position: relative;
 } 
 
-.title-prjfil {
-
+.title-profil {
+    margin-left: 50;
 }
 
 .title-profil::before {
@@ -127,14 +131,20 @@
     background-color: #f2c100;
 }
 
+.p-profil {
+    position: absolute;
+    left: 450;
+    font-size: 20;
+}
+
 .skils {
     margin: 20 0 20 400;
-    background-color: #435d8d;
+    background-color: #a3bceb;
     position: relative;
 }
 
 .title-skils {
-
+    margin-left: 50;
 }
 
 .title-skils::before {
@@ -146,15 +156,21 @@
     background-color: #f2c100;
 }
 
+.p-skils {
+    position: absolute;
+    left: 450;
+    font-size: 20;
+}
+
 .Courses {
     margin: 20 0 20 400;
-    background-color: #435d8d;
+    background-color: #a3bceb;
     position: relative;
 }
 
 .title-courses {
-
-}
+    margin-left: 50;
+}                              
  
 .title-courses::before {
     position: absolute;
@@ -163,4 +179,10 @@
     width: 20px;
     height: 27px;
     background-color: #f2c100;
+}
+
+.p-courses {
+    position: absolute;
+    left: 450;
+    font-size: 20;
 }
