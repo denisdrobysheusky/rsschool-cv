@@ -14,6 +14,7 @@
 .right-cide {
     background-color: #435d8d;
     color: white;
+    max-width: 400px;
 }
 
 .left-cide{
@@ -21,12 +22,15 @@
 }
 
 .contact {
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 200px 0px;
+    background-color: #9797d6;
+    height: 27px;
 }
 
 .title-contact {
     font: bolt Cabin, sans-serif;
     background-color: #9797d6;
+    margin-left: 50px;
 }
 
 .title-contact::before {
@@ -41,30 +45,34 @@
 
 .phon {
     list-style-type: none;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 20px 10px;
     font-size: 20px;
 }
 
 .email {
     list-style-type: none;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 20px 10px;
     font-size: 20px;
 }
 
 .adress {
     list-style-type: none;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 20px 10px;
     font-size: 20px;
 }
 
 .education {
     background-color: #9797d6;
-    margin: 30px 0px 0px 50px
 }
 
-.tite-education {
-    margin: 50px;
+.title-education {
     background-color: #9797d6;
+    margin-left: 50px;
+}
+
+.p-education {
+    font-size: 20px;
+    margin-left: 50px;
 }
 
 .name {
@@ -145,8 +153,8 @@
 }
 
 .courses {
-    margin: 60px 0px 150px;
     background-color: #9797d6;
+    height: 27px;
 }
 
 .title-courses {
@@ -169,14 +177,14 @@
     font-size: 20px;
 }
 
-.languages {
+.lenguages {
     background-color: #9797d6;
     height: 27px;
-    margin: 50px 0px 150px;
+    margin: 150px 0px 150px;
 }
 
 .title-lenguages {
-    margin: 50px;
+    margin-left: 50px;
     background-color: #9797d6;
 }
 
@@ -196,12 +204,13 @@
 }
 
 .footer {
-    background-color: #46467b;
-    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .footer-a {
-
+    
 }
 
 .footer-icon {
