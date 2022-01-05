@@ -1,238 +1,151 @@
 .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    
 }
 
-.left-cide {
-    position: absolute;
-    right: auto;
-    
-}   
+.container {
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+} 
 
 .right-cide {
-    position: absolute;
-    left: auto;
-    background-color: #283855;
-    height: 1000;
+    background-color: #435d8d;
+    color: white;
+}
 
+.left-cide{
+    font: bold Cabin, sans-serif; 
 }
 
 .contact {
-    margin: 20 0 225 0;
-    background-color: #435d8d;
-    color: white;
-    height: 27px;
+    
 }
 
 .title-contact {
-    font: bold Poppins, sans-serif;
-     margin: 0 0 0 50;
-     background-color: #435d8d;
-     color: white;
+    
 }
 
 .title-contact::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 }
 
 .phon {
-    list-style-type: none;
-    padding: 25 0 12 10;
-    color: rgb(255, 255, 255);
-    font-size: 20;
-}
+    
 
 .email {
-    list-style-type: none;
-    padding: 12 0 12 10;
-    color: rgb(255, 255, 255);
-    font-size: 20;
+
 }
 
 .adress {
-    list-style-type: none;
-    position: absolute;
-    padding: 12 0 12 10;
-    color: rgb(255, 255, 255);
-    font-size: 20;  
+     
 }
 
 .education {
-    margin: 110 0 0 0;
-    background-color: #435d8d;
-    color: white;
+    
 }
 
 .education::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 }
 
 .title-education {
-    margin: 0 0 0 50;
-    background-color: #435d8d;
-    color: white;
-    font: bold Poppins, sans-serif;
+    
 }
 
 .p-education {
-    position: absolute;
-    margin: 20 0 20 50;
-    color: white;
-    font-size: 20px;
+    
 }
 
 .name {
-    margin: 150 400 150 242;
+    
 }
 
 .title-name {
-    font-size: 50;
-    font: bold 50px Poppins, sans-serif;
-    margin-right: 0;
-    margin-left: 400;
-    margin-right: 0;
-    position: relative;
+    font: bold 50px Cabin, sans-serif;
+    margin: 400;
 }
 
 .p-title-name {
-    font: 25px Poppins, sans-serif;
-    position: relative;
-    margin-left: 400;
+    
 }
 
-
 .profil {
-    margin: 20 0 20 400;
-    background-color: #a3bceb;
-    position: relative;
+    
 } 
 
 .title-profil {
-    left: 450;
-    right: 50;
-    margin-left: 50;
-    height: 27;
-    font: bold Poppins, sans-serif;
+    
 }
 
 .title-profil::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 }
 
 .p-profil {
-    position: absolute;
-    left: 450;
-    font: 20px Poppins, sans-serif;
-    margin-right: 70px;
+    
 }
 
 .skils {
-    margin: 20 0 20 400;
-    background-color: #a3bceb;
-    position: relative;
-    margin-top: 150;
+    
 }
 
 .title-skils {
-    font: bold Poppins, sans-serif;
-    margin: 0px 0px 0px 50px;
-    height: 27px
+    
 }
 
 .title-skils::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 }
 
 .p-skils {
-    left: 450;
-    font: 20px Poppins, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 50px 40px 50 70;
+    
 }
 
 .Courses {
-    margin: 20 0 20 400;
-    background-color: #a3bceb;
-    position: relative;
+    
 }
 
 .title-courses {
-    left: 450;
-    right: 50;
-    margin: 0 50 0 50;
-    height: 27;
-    font: bold Poppins, sans-serif;
+    
 }                              
  
 .title-courses::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 }
 
 .p-courses {
-    left: 450;
-    font: 20px Poppins, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 50 40 50 50;
+    
 }
 
 .lenguages {
-    margin: 20 0 20 400;
-    background-color: #a3bceb;
-    position: relative;
+    
 }
 
 .title-lenguages::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 20px;
-    height: 27px;
-    background-color: #f2c100;
+    
 } 
 
 .title-lenguages {
-    left: 450;
-    right: 50;
-    margin: 0 50 0 50;
-    height: 27;
-    font: bold Poppins, sans-serif;
+    
 }
 
 .p-lenguages {
-    left: 450;
-    font: 20px Poppins, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 50px 40px 50 70;
+    
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #324569;
+}
+
+
+.footer-a {
+
+}
+
+.footer-icon {
+    
 }
