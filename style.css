@@ -21,131 +21,189 @@
 }
 
 .contact {
-    
+    margin: 0px 0px 0px 50px;
 }
 
 .title-contact {
-    
+    font: bolt Cabin, sans-serif;
+    background-color: #9797d6;
 }
 
 .title-contact::before {
-    
+    margin-left: 8px;
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .phon {
-    
+    list-style-type: none;
+    margin: 0px 0px 20px;
+    font-size: 20px;
+}
 
 .email {
-
+    list-style-type: none;
+    margin: 0px 0px 20px;
+    font-size: 20px;
 }
 
 .adress {
-     
+    list-style-type: none;
+    margin: 0px 0px 20px;
+    font-size: 20px;
 }
 
 .education {
-    
+    background-color: #9797d6;
+    margin: 30px 0px 0px 50px
 }
 
-.education::before {
-    
-}
-
-.title-education {
-    
-}
-
-.p-education {
-    
+.tite-education {
+    margin: 50px;
+    background-color: #9797d6;
 }
 
 .name {
-    
+    margin: 200px;
 }
 
 .title-name {
-    font: bold 50px Cabin, sans-serif;
-    margin: 400;
+    font-size: 50px;
+}
+
+.title-education::before {
+    margin-left: 8px;
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .p-title-name {
-    
+    font-size: 20px;
 }
 
 .profil {
-    
-} 
+    background-color: #9797d6;
+}
 
 .title-profil {
-    
+    background-color: #9797d6;
+    right: 50;
+    margin: 50px;
+    height: 27;
+    font: bold Poppins, sans-serif;
 }
 
 .title-profil::before {
-    
+    margin-left: 408px;
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .p-profil {
+    margin: 50px;
+    font-size: 20px;
     
 }
 
 .skils {
-    
+    background-color: #9797d6;
+    height: 27px;
+    margin: 50px 0px 150px;
 }
 
 .title-skils {
-    
+    margin: 50px;
+    background-color: #9797d6;
 }
 
+
 .title-skils::before {
-    
+    margin-left: 408px;
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .p-skils {
-    
+    margin:40px;
+    font-size: 20px;
 }
 
-.Courses {
-    
+.courses {
+    margin: 60px 0px 150px;
+    background-color: #9797d6;
 }
 
 .title-courses {
-    
-}                              
- 
+    background-color: #9797d6;
+    margin-left: 50px;
+}
+
 .title-courses::before {
-    
+    margin-left: 408px;
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .p-courses {
-    
+    margin: 50px;
+    font-size: 20px;
 }
 
-.lenguages {
-    
+.languages {
+    background-color: #9797d6;
+    height: 27px;
+    margin: 50px 0px 150px;
+}
+
+.title-lenguages {
+    margin: 50px;
+    background-color: #9797d6;
 }
 
 .title-lenguages::before {
-    
-} 
-
-.title-lenguages {
-    
+    margin-left: 408px;
+    position:absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 27px;
+    background-color: #f2c100;
 }
 
 .p-lenguages {
-    
+    margin: 40px;
+    font-size: 20px;
 }
 
 .footer {
+    background-color: #46467b;
     margin-top: auto;
-    background-color: #324569;
 }
-
 
 .footer-a {
 
 }
 
 .footer-icon {
-    
+
 }
