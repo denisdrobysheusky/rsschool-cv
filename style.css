@@ -80,7 +80,7 @@
 }
 
 .title-name {
-    font-size: 50px;
+    font: bold 50px Cabin, sans-serif;
 }
 
 .title-education::before {
@@ -94,7 +94,7 @@
 }
 
 .p-title-name {
-    font-size: 20px;
+    font: 20px Cabin, sans-serif;
 }
 
 .profil {
@@ -121,7 +121,7 @@
 
 .p-profil {
     margin: 50px;
-    font-size: 20px;
+    font: 20px Cabin, sans-serif;
     
 }
 
@@ -150,11 +150,13 @@
 .p-skils {
     margin:40px;
     font-size: 20px;
+    font:  20px Cabin, sans-serif;
 }
 
 .courses {
     background-color: #9797d6;
     height: 27px;
+    margin-top: 160px;
 }
 
 .title-courses {
@@ -174,7 +176,7 @@
 
 .p-courses {
     margin: 50px;
-    font-size: 20px;
+    font: 20px Cabin, sans-serif;
 }
 
 .lenguages {
@@ -200,19 +202,5 @@
 
 .p-lenguages {
     margin: 40px;
-    font-size: 20px;
-}
-
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.footer-a {
-    
-}
-
-.footer-icon {
-
+    font: 20px Cabin, sans-serif;
 }
